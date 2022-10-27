@@ -23,7 +23,7 @@ alla fine del programma è anche scritto come compilarlo
 // All'interno del main vengono messe tutte le operazioni importanti
 int main() {
     // La funzione printf() viene descritta nel prossimo programma
-    printf("Il C è un linguaggio rompipalle, ricorda i ;");
+    printf("Il C è un linguaggio rompipalle, ricorda i ;\n");
     
     // La funzione main manda al terminale un valore di 0 (int) quando finisce di eseguire
     // correttamente il programma, il return 0; è buona norma scriverlo anche se 
