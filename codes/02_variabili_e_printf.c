@@ -22,7 +22,7 @@ int main() {
     // Si può inizializzare una variabile quando la si crea
     double numeroDecimaleD = 1.4; 
     printf("%lf", numeroDecimaleD);
-    char carattere = "a"; 
+    char carattere = 'a'; 
     printf("%c\n", carattere);
     long numeroInteroL = 100000000000;
     printf("%li", numeroInteroL);
