@@ -8,3 +8,6 @@ Si consigli inoltre di leggere anche le parti che si pensa di sapere già, potre
 La repository è libera e tutti i codici si trovano nella cartella apposita, non è richiesto pagare nulla e chiunque può riutilizzare il codice qui scritto.
 
 Se si riscontrano problemi o dubbi si può utilizzare la sezione "Issues" di github per fare domande alle quali cercherò di rispondere il prima possibile.
+
+
+N.B. La repository viene aggiornata quando ho tempo, potete chiedere degli argomenti ma li pubblicherò solo quando ho tempo
