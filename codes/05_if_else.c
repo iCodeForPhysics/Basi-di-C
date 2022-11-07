@@ -2,8 +2,7 @@
 
 /*
 
-Queso programma spiega brevemente come poter effettuare delle decisioni confrontando 
-delle variabili
+Queso programma spiega brevemente come poter effettuare delle decisioni confrontando delle variabili
 
 */
 
@@ -19,10 +18,10 @@ int main() {
     // Un "if" indica una parte di codice dove si chiede al programma se una condizione è vera o meno.
     // Negli "if" si usano gli operatori relazionali (<: Minore, <=: Minore o Uguale, ==: Uguale, >: Maggiore,
     // >=: Maggiore o Uguale, !=: Diverso) per confrontare delle variabili. 
-    // Nel seguente esempio "if(anni<18)" chiede al programma se la variabile "anni" è minore di 18
-    // se anni è minore di 18 esegue il codice all'interno delle parentesi graffe, altrimenti va avanti
-    // Si può distinguere un codice alternativo nel caso in cui la condizione non dovesse verificarsi,
-    // per fare questa cosa esiste l'"else" che, posizionato dopo un "if" esegue del codice in caso in cui
+    // Nel seguente esempio "if(anni<18)" chiede al programma se la variabile "anni" è minore di 18,
+    // se anni è minore di 18, esegue il codice all'interno delle parentesi graffe, altrimenti va avanti
+    // Si può eseguire un codice alternativo nel caso in cui la condizione non dovesse verificarsi,
+    // per fare questa cosa esiste l'"else" che, posizionato dopo un "if", esegue del codice in caso in cui
     // l'"if" dia risultato negativo.
     if(anni<18) {
         printf("Sei ancora minorenne\n");
@@ -61,7 +60,7 @@ int main() {
     else printf("Il valore inserito è minore di 4 (%d)\n", a);
 
     // Operatori Logici
-    // Gli operatori logici permettono di effettuare più confronti contemporaneamente senza fare degli "if" ramificati.
+    // Gli operatori logici permettono di effettuare più confronti contemporaneamente senza fare degli "if annidati".
     // Gli operatori logici in C sono &&: and, ||: or, !: not. Sono abbastanza intuitivi.
     printf("Inserire due numeri dispari:\n");
     scanf("%d", &a);
