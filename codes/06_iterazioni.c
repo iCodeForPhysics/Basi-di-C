@@ -12,8 +12,8 @@ long long fattorialeFor(int numero);
 
 int main() {
     // I cicli permettono di eseguire uno stesso codice per un numero determinato di volte, quando
-    // si vuole implementare un ciclo è importante assicurarsi di aver inserito le condizioni giuste
-    // per la chiusura dello stesso per non avere cicli infiniti (ad esempio se volete farlo eseguire
+    // si vuole implementare un ciclo, è importante assicurarsi di aver inserito le condizioni giuste
+    // per la chiusura dello stesso, cioè per non avere cicli infiniti (ad esempio se volete iterare
     // finchè una variabile è minore di 5 ma poi non cambiate il valore della variabile o lo abbassate).
 
     // Fattoriale
@@ -21,7 +21,7 @@ int main() {
     int i, numero=0;
     printf("Inserire il numero di cui si vuole sapere il fattoriale (massimo 15): ");
     // Il ciclo "do-while" esegue il codice al suo interno almeno una volta, anche se la condizione del
-    // "while" è vera. Questo permette di far comparire sicuramente una parte di codice.
+    // "while" è vera. Questo permette di far comparire sicuramente la parte di codice interessata.
     do {
         scanf("%d", &numero);
         while(getchar()!='\n'); // Questa riga (letteralmente) svuota il "buffer" (verrà spiegato più
@@ -42,7 +42,7 @@ long long fattorialeWhile(int numero) {
     long long risultato = 1;
     int temp = numero;
     // Il ciclo "while" è il meno utilizzato e quello per cui è più facile incorrere in cicli infiniti.
-    // In caso di ciclo infinito basta premere "ctrl" e "c" contemporaneamente sul terminale.
+    // In caso di ciclo infinito basta premere "ctrl" + "c" contemporaneamente sul terminale.
     while(temp>1) {
         risultato *= temp;
         temp--;
